@@ -5,27 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Page</title>
-    <link href="assets/css/bootstrap.css" type="text/stylesheet"/>
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
     <script src="assets/js/bootstrap.js"></script>
+    <link href="assets/css/style.css" rel="stylesheet" />
   </head>
   <body>
     <section>
     <div class="container">
-      <div class="row">
-        <div class="col-md-4 offset-md-4">
-          <div class="login-form bg-light mt-4 p-4">
-
+        <div class="login-form form bg-light mt-4 p-4">
             <center>
               <h2>Stock Managment</h2>
-              
-
               <h6>Plese sign in to get access</h6>
             </center> 
-          
-          
-            <br>
-            
-            <div class="col-12">
+            <div class="col-12 username">
               <input
                 type="Username"
                 name="Username"
@@ -33,8 +25,7 @@
                 placeholder="Username"
               />
             </div>
-            <br />
-            <div class="col-12">
+            <div class="col-12 password">
               <input
                 type="Password"
                 name="Password"
@@ -42,25 +33,22 @@
                 placeholder="Password"
               />
             </div>
-            <br />
-            <div class="row mb-6">
+            <div class="row mb-6 ">
                 <div class="col d-flex justify-content-center">
-                  <div class="form-check">
+                  <div class="form-check rememberme">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                       Remember me
                     </label>
                   </div>
                 </div>
-                <div class="col text-center">
+                <div class="col text-center rememberme">
                     <a href="#">Forgot password?</a>
                 </div>
             <div class="d-grid gap-2">
               <button" class="btn btn-danger" type="button">Sign in</button>
             </div>
         </div>
-        </div>
-      </div>
     </div>
   </section>
   </body>
