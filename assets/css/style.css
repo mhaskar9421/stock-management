@@ -1,28 +1,66 @@
-html,
-body {
-  height: 100%;
+.container {
+  max-width: 400px;
+  min-height: 400px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 4px 2px 16px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  margin: 20px auto 0 auto;
+  padding: 28px;
+  color: #414141;
+  margin-top: 80px;
+}
+
+.cm-input {
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
   width: 100%;
-  margin: 0;
-}
-body {
-  display: flex;
-}
-.form {
-  margin: auto; /* nice thing of auto margin if display:flex; it center both horizontal and vertical :) */
+  margin: 14px auto;
+  border-radius: 20px;
+  border: 1px solid #ccc;
 }
 
-.form-gap {
-  padding-top: 100px;
+.cm-input:focus {
+  outline: 20;
+  border-color: #4cda9f;
 }
 
-.username {
-  margin: 20px 0;
+.btn-login {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.btn-login:focus {
+  outline: 0;
 }
 
-.password {
-  margin: 20px 0;
+.gr-bg {
+  background: rgb(252, 205, 128);
+  background: linear-gradient(
+    90deg,
+    rgb(113, 214, 155) 0%,
+    rgb(113, 221, 149) 55%,
+    rgb(114, 211, 162) 100%
+  );
 }
 
-.rememberme {
-  margin: 10px 0;
+.form-title {
+  font-size: 21px;
+  padding: 2px;
+  text-align: center;
+  position: relative;
+}
+
+.float-right {
+  margin-left: 90px;
+}
+
+.row {
+  padding-top: 90px;
 }
